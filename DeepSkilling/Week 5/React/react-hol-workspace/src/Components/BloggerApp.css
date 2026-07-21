@@ -1,0 +1,33 @@
+.blogger-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.blogger-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.blogger-col {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.blogger-col ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.blogger-col h3 {
+  margin-bottom: 5px;
+}
+
+.blogger-col h4 {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.border-left {
+  border-left: 2px solid green;
+}
